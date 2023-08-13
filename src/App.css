@@ -1,0 +1,18 @@
+.App{
+    /* box-sizing: border-box; */
+    max-height: 100vh;
+    max-width: 100vw;
+
+}
+#midPart{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+@media screen and (max-width:500px){
+    #midPart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
