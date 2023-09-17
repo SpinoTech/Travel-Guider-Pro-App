@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Travel-Guider-Pro-App/static/css/main.2eeb13b8.css",
+    "main.js": "/Travel-Guider-Pro-App/static/js/main.9eaac61b.js",
+    "index.html": "/Travel-Guider-Pro-App/index.html",
+    "main.2eeb13b8.css.map": "/Travel-Guider-Pro-App/static/css/main.2eeb13b8.css.map",
+    "main.9eaac61b.js.map": "/Travel-Guider-Pro-App/static/js/main.9eaac61b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eeb13b8.css",
+    "static/js/main.9eaac61b.js"
+  ]
+}
