@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Travel-Guider-Pro-App/static/css/main.2eeb13b8.css",
-    "main.js": "/Travel-Guider-Pro-App/static/js/main.9eaac61b.js",
+    "main.css": "/Travel-Guider-Pro-App/static/css/main.fb32ab1b.css",
+    "main.js": "/Travel-Guider-Pro-App/static/js/main.ff206a25.js",
     "index.html": "/Travel-Guider-Pro-App/index.html",
-    "main.2eeb13b8.css.map": "/Travel-Guider-Pro-App/static/css/main.2eeb13b8.css.map",
-    "main.9eaac61b.js.map": "/Travel-Guider-Pro-App/static/js/main.9eaac61b.js.map"
+    "main.fb32ab1b.css.map": "/Travel-Guider-Pro-App/static/css/main.fb32ab1b.css.map",
+    "main.ff206a25.js.map": "/Travel-Guider-Pro-App/static/js/main.ff206a25.js.map"
   },
   "entrypoints": [
-    "static/css/main.2eeb13b8.css",
-    "static/js/main.9eaac61b.js"
+    "static/css/main.fb32ab1b.css",
+    "static/js/main.ff206a25.js"
   ]
 }
