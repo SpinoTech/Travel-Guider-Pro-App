@@ -57,34 +57,71 @@
     text-align: center;
     background-color: #00233f76;
 }
-.buttom{
+
+.buttom {
     margin-top: 1rem;
     height: 84%;
     overflow: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
-     background-image: linear-gradient(to right, rgba(0, 21, 90, 0.768), rgba(57, 242, 202, 0.695));
-     box-shadow: 0 0 20px rgba(57, 242, 202, 0.695);
-     border-radius: 2rem 0 0 0;
+    background-image: linear-gradient(to right, rgba(0, 21, 90, 0.768), rgba(57, 242, 202, 0.695));
+    box-shadow: 0 0 20px rgba(57, 242, 202, 0.695);
+    border-radius: 2rem 0 0 0;
 }
+
 /* for scroolbar effect */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(1, 79, 86); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(1, 79, 86);
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 35, 42); 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 35, 42);
+}
+
+@media screen and (max-width:500px) {
+    .ListItems {
+        margin: 0;
+        min-width: 100%;
+    }
+
+    .top h1 {
+        font-size: 1.4rem;
+        background: -webkit-linear-gradient(#fefebe, #00404c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: none;
+    }
+    .inputs {
+        margin-top:0;
+        font-family: 'Mooli', sans-serif;
+    }
+    .inputs form label {
+        margin: 0.2rem;
+        font-size: 1rem;
+    }
+    .inputs form select {
+        color: white;
+        width: 8rem;
+        height: 1.5rem;
+        border-radius: 3rem;
+        font-size: 1rem;
+        text-align: center;
+        background-color: #00233f76;
+    }
+    .buttom {
+        margin-top: 0.3rem;
+    }
+}

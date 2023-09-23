@@ -100,6 +100,7 @@ export default function PlaceDetails({ details }) {
             </a>
           )}
         </div>
+        <div className="shadow"></div>
       </div>
     )
   );

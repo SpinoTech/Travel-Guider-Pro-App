@@ -15,7 +15,7 @@ export default function Map({
         bootstrapURLKeys={{ key: "AIzaSyA7gsYT_G2Hq0cLHKEpHxDapbcjCtIzdZA" }}
         defaultCenter={coordinates}
         center={coordinates}
-        defaultZoom={15}
+        defaultZoom={10}
         margin={[50, 50, 50, 50]}
         options={""}
         onChange={(e) => {

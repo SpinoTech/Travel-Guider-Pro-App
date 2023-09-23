@@ -97,4 +97,11 @@
       transform: skewX(10deg) skewY(-10deg);
     }
   }
+
+  @media screen and (max-width:500px) {
+    .loader{
+      min-width: 100%;
+      min-height: 100%;
+    }
+  }
   

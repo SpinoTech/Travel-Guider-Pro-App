@@ -4,7 +4,6 @@ import Header from './components/Header/Header';
 import List from './components/List/List';
 import Map from './components/Map/Map';
 import { getPlaceData } from './api';
-import Map2 from './components/Map/Map2';
 
 function App() {
   const [place, setPlace] = useState([]);
