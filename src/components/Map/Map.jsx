@@ -1,6 +1,7 @@
 import React from "react";
 import GoogleMapReact  from "google-map-react";
-// import { Marker } from "@react-google-maps/api";
+import { Marker } from "@react-google-maps/api";
+// import GoogleMap from 'google-maps-react-markers'
 import "./MapStyle.css";
 
 export default function Map({
@@ -30,12 +31,18 @@ export default function Map({
         }}
         onChlidClick={""}
       >
-        {/* {
-          places.map((place,i)=>{
-            // console.log(Number(place.latitude) ,Number(place.longitude))
-            return <Marker position={{ lat: Number(place.latitude), lng: Number(place.longitude) }}/>
-          })
-        } */}
+        {places.map((place, i) => {
+          console.log(Number(place.latitude), Number(place.longitude));
+          return (
+            <Marker
+              position={{
+                lat: Number(place.latitude),
+                lng: Number(place.longitude),
+              }}
+              key={String(place.latitude) + String(place.longitude)}
+            />
+          );
+        })}
       </GoogleMapReact>
     </div>
   );

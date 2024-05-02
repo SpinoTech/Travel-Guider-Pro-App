@@ -1,12 +1,14 @@
 .card {
     margin: 0.5rem;
     max-width: 100%;
-    height: 45rem;
+    height: auto;
+        /* background-image: none; */
+        padding-bottom: 1rem;
     /* border: 2px solid red; */
     background-image: linear-gradient(to right, rgba(0, 21, 90, 0.768), rgba(57, 242, 202, 0.695));
     /* box-shadow: 0 0 20px rgba(57, 242, 202, 0.695); */
     border-radius: 3rem;
-    padding: 0.2rem;
+    /* padding: 0.2rem; */
     /* overflow: hidden; */
     display: flex;
     flex-direction: column;
@@ -189,7 +191,45 @@
     }
 
 }
-
+@media screen and (max-width:1400px) {
+    .card {
+        margin: 1rem 0;
+        max-width: 100%;
+        height: auto;
+        /* background-image: none; */
+        padding-bottom: 1rem;
+    }
+    .card img {
+        width: 100%;
+        height: 30%;
+        border-radius: 2.5rem;
+        box-shadow: 0 0 20px rgba(57, 242, 202, 0.695);
+    }
+    .variety {
+        grid-template-columns: auto auto auto ;
+    }
+    #nameRat h1 {
+        font-size: 1.4rem;
+    }
+    .mobile {
+        font-size: 1rem;
+    }
+    .pricing p {
+        font-size: 1.5rem;
+    }
+    .rowDetails h1,
+    .pricing h1 {
+        width: 65%;
+        font-size: 1.2rem;
+    }
+    .btn {
+        width: 40%;
+        height: 1.5rem;
+        overflow: hidden;
+        border-radius: 0 10px 0 10px;
+        background-image: linear-gradient(to right, rgba(0, 21, 90, 0.768), rgba(57, 242, 202, 0.695));
+    }
+}
 @media screen and (max-width:500px) {
     .card {
         margin: 0.5rem 0;
